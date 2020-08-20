@@ -34,7 +34,7 @@ body {
 
 #acc {
   width: 150px;
-  border: 15px solid black;
+  border: 10px solid black;
   padding: 50px;
   margin: 50px;
   height: 200px;
@@ -44,7 +44,7 @@ body {
 
 #cre {
   width: 150px;
-  border: 15px solid black;
+  border: 10px solid black;
   padding: 50px;
   margin: 50px;
   text-align: center;
@@ -53,7 +53,7 @@ body {
 
 #pac {
   width: 150px;
-  border: 15px solid black;
+  border: 10px solid black;
   padding: 50px;
   margin: 50px;
   text-align: center;
@@ -68,4 +68,13 @@ body {
 .myDiv {
   display: grid;
   grid-template-areas: 'auto auto auto';
+}
+
+.our {
+  background-color: #F2F3F4;
+  border: solid 1px;
+}
+
+li {
+  text-align-last: left;
 }
