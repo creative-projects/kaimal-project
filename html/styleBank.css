@@ -5,7 +5,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #333; 
+  background-color: #0098db; 
 }
 
 .navbar a {
@@ -37,9 +37,13 @@ body {
   border: 10px solid black;
   padding: 50px;
   margin: 50px;
-  height: 200px;
+  height: 300px;
   text-align: center;
-  background-color: #FFD433;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 #cre {
@@ -48,7 +52,11 @@ body {
   padding: 50px;
   margin: 50px;
   text-align: center;
-  background-color: #FFD433;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 #pac {
@@ -57,7 +65,11 @@ body {
   padding: 50px;
   margin: 50px;
   text-align: center;
-  background-color: #FFD433;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 .center {
@@ -78,3 +90,19 @@ body {
 li {
   text-align-last: left;
 }
+
+.hi {
+  visibility: hidden;
+}
+
+.ou {
+  text-decoration: underline;
+  font-size: 150%;
+  text-shadow: 2px 2px 5px red;
+}
+
+.ban {
+  display: inline-flex; 
+  font-style: italic;
+}
+
