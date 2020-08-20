@@ -37,12 +37,13 @@ body {
   border: 10px solid black;
   padding: 50px;
   margin: 50px;
-  height: 270px;
+  height: 300px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px white;
-  font-size: 150%;
-  
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 #cre {
@@ -52,9 +53,10 @@ body {
   margin: 50px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px white;
-  font-size: 150%;
-  
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 #pac {
@@ -64,9 +66,10 @@ body {
   margin: 50px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px white;
-  font-size: 150%;
- 
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 .center {
@@ -90,9 +93,6 @@ li {
 
 .hi {
   visibility: hidden;
-}
-.lis {
-  text-shadow: 2px 2px 5px black;
 }
 
 .ou {
