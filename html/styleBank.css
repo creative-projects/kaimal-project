@@ -33,38 +33,39 @@ body {
 }
 
 #acc {
-  width: 30px;
+  width: 150px;
   border: 15px solid black;
   padding: 50px;
-  margin: 20px;
+  margin: 50px;
+  height: 200px;
+  text-align: center;
+  background-color: #FFD433;
 }
 
 #cre {
-  width: 30px;
+  width: 150px;
   border: 15px solid black;
   padding: 50px;
-  margin: 20px;
-  text-align: left;
+  margin: 50px;
+  text-align: center;
+  background-color: #FFD433;
 }
 
 #pac {
-  width: 30px;
+  width: 150px;
   border: 15px solid black;
   padding: 50px;
-  margin: 20px;
+  margin: 50px;
+  text-align: center;
+  background-color: #FFD433;
 }
 
 .center {
   position: right;
 }
 
-.grid {
-  grid-area: myArea;
-}
 
 .myDiv {
   display: grid;
-  grid-template-areas: 'myArea myArea myArea myArea myArea';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-template-areas: 'auto auto auto';
 }
