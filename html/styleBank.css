@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+#acc {
+  width: 30px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+#cre {
+  width: 30px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  text-align: left;
+}
+
+#pac {
+  width: 30px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+.center {
+  position: right;
+}
+
+.grid {
+  grid-area: myArea;
+}
+
+.myDiv {
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea myArea myArea';
+  grid-gap: 10px;
+  padding: 10px;
+}
