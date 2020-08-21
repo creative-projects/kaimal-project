@@ -5,7 +5,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #0098db; 
+  background-color: #0000b3; 
 }
 
 .navbar a {
@@ -24,7 +24,7 @@ body {
 
 
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: #F2F2F4;
   color: black;
 }
 
@@ -106,3 +106,21 @@ li {
   font-style: italic;
 }
 
+.ba {
+  
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+.lis {
+  display: grid;
+  grid-template-areas: 'auto auto auto';
+}
+
+.foo {
+  font-weight: 1200;
+  color: black;
+  text-align: right;
+  size: 100px;
+  font-weight:bold;
+}
