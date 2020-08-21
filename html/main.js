@@ -9,26 +9,30 @@ $(document).ready(function(){
  $("#btn").click(function(){
    if($("#password").val()==="12345"&&$("#account").val()==="12345" ){
   	console.log("access accepted")
-  	window.location.replace("KA2.html");
+  	window.location.replace("KaiMal+.html");
     }else{
   	  $("#msgerr").show();
   }
  });
-});  
 
+var myIndex = 0;
+carousel();
 
-/*var client=makeAccount() {
-var	account= {};
-var	balance= initial
-	account.deposit(amount) {
-		this.balance = this.balance + amount
-		return this.balance;
-	}
-	account.withDraw(amount) {
-		this.balance = this.balance - amount
-		return this.balance;
-	}
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
 }
-*/
 
 
+});
+
+
+
+ 

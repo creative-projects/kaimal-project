@@ -1,1 +1,0 @@
-# kaimal-project

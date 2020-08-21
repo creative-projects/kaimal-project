@@ -24,7 +24,7 @@ body {
 
 
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: #F2F2F4;
   color: black;
 }
 
@@ -40,7 +40,6 @@ body {
   height: 300px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px;
   font-size: 200%;
   font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
@@ -53,7 +52,6 @@ body {
   margin: 50px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px;
   font-size: 200%;
   font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
@@ -66,7 +64,6 @@ body {
   margin: 50px;
   text-align: center;
   background-color: #0098db;
-  text-shadow: 2px 2px 5px;
   font-size: 200%;
   font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
@@ -124,3 +121,24 @@ li {
   size: 100px;
   font-weight:bold;
 }
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.mySlides {display:none;}
+
