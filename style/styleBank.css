@@ -1,7 +1,126 @@
-.tex {
-  color: red;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-/*
-test
-*/
+.navbar {
+  overflow: hidden;
+  background-color: #0000b3; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+#acc {
+  width: 150px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 50px;
+  height: 300px;
+  text-align: center;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+#cre {
+  width: 150px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+#pac {
+  width: 150px;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  background-color: #0098db;
+  text-shadow: 2px 2px 5px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+.center {
+  position: right;
+}
+
+
+.myDiv {
+  display: grid;
+  grid-template-areas: 'auto auto auto';
+}
+
+.our {
+  background-color: #F2F3F4;
+  border: solid 1px;
+}
+
+li {
+  text-align-last: left;
+}
+
+.hi {
+  visibility: hidden;
+}
+
+.ou {
+  text-decoration: underline;
+  font-size: 150%;
+  text-shadow: 2px 2px 5px red;
+}
+
+.ban {
+  display: inline-flex; 
+  font-style: italic;
+}
+
+.ba {
+  
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+.lis {
+  display: grid;
+  grid-template-areas: 'auto auto auto';
+}
+
+.foo {
+  font-weight: 1200;
+  color: black;
+  text-align: right;
+  size: 100px;
+  font-weight:bold;
+}
